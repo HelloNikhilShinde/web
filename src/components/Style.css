@@ -1442,10 +1442,11 @@ input {
 
   #Home {
     margin-left: 3%;
-    height: 604px;
+    height: 100vh;
     display: block;
     background-position: 95%;
     background-size: cover;
+    border:1px solid red;
   }
 
   #Home .main-cont {
