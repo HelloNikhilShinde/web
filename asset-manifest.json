@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.f7e1dd89.css",
-    "main.js": "/web/static/js/main.a3434762.js",
+    "main.css": "/web/static/css/main.d664fe5c.css",
+    "main.js": "/web/static/js/main.ee2d8593.js",
     "static/js/787.1ed0c42c.chunk.js": "/web/static/js/787.1ed0c42c.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/NikhilShinde_9370621842.pdf": "/web/static/media/NikhilShinde_9370621842.aea59aac691a6ff353f2.pdf",
@@ -16,12 +16,12 @@
     "static/media/signaturenick1.png": "/web/static/media/signaturenick1.df751b291e894a8177f7.png",
     "static/media/NickPic.jpg": "/web/static/media/NickPic.de5ec59a66a7022485ff.jpg",
     "index.html": "/web/index.html",
-    "main.f7e1dd89.css.map": "/web/static/css/main.f7e1dd89.css.map",
-    "main.a3434762.js.map": "/web/static/js/main.a3434762.js.map",
+    "main.d664fe5c.css.map": "/web/static/css/main.d664fe5c.css.map",
+    "main.ee2d8593.js.map": "/web/static/js/main.ee2d8593.js.map",
     "787.1ed0c42c.chunk.js.map": "/web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e1dd89.css",
-    "static/js/main.a3434762.js"
+    "static/css/main.d664fe5c.css",
+    "static/js/main.ee2d8593.js"
   ]
 }
