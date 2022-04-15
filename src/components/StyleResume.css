@@ -1,0 +1,490 @@
+  /* .resume-body{
+    border:2px solid white;
+
+}
+
+.resume-body .rightpart-resume{
+    border:1px solid green;
+} */
+
+  * {
+      /* border:1px solid red; */
+  }
+
+
+  .resume-body .leftpart-resume {
+      /* border:2px solid red; */
+      text-align: center;
+      /* border:none;    */
+
+  }
+
+  .sk {
+      margin-top: 5px;
+      background-color: #232425;
+      width: 70%;
+
+  }
+
+  .skill-one {
+      background-color: #00A3E1;
+      padding: 1%;
+      width: 80%;
+  }
+
+  .skill-two {
+      background-color: #00A3E1;
+      padding: 1%;
+      width: 60%;
+  }
+
+  .skill-three {
+      background-color: #00A3E1;
+      padding: 1%;
+      width: 90%;
+  }
+
+  .card-body {
+      /* background-color:#212529ec; */
+      background-color: #212529ec;
+      /* border:none;   */
+
+  }
+
+  .card {
+      border: none;
+  }
+
+
+
+  .container span {
+      color: #00A3E1;
+  }
+
+
+
+  .timeline {
+      margin-top: 80px;
+      border-left: 3px solid #00A3E1;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      /* background: rgba(114, 124, 245, 0.09); */
+      /* margin: 100 auto; */
+      letter-spacing: 0.2px;
+      position: relative;
+      line-height: 1.4em;
+      font-size: 1.03em;
+      padding: 50px;
+      list-style: none;
+      text-align: left;
+      /* max-width: 40%;  */
+      /* border : 2px solid white; */
+      max-width: 100%;
+  }
+
+
+
+  .timeline h1 {
+      font-style: bold;
+      font-size: 1.4em;
+  }
+
+  .timeline h2,
+  .timeline h3 {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 10px;
+  }
+
+  .timeline .event {
+      /* border-bottom: 1px dashed #e8ebf1; */
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      position: relative;
+  }
+
+
+  @media(max-width:991px) {
+      .resume-body {
+          flex-direction: column;
+      }
+
+      .resume-body .leftpart-resume {
+          width: 70%;
+          left: 3%;
+          /* border:1px solid blue; */
+      }
+
+      .timeline {
+          margin-top: 10px;
+      }
+
+      .resume-body .leftpart-resume h2 {
+          left: 20%;
+      }
+
+      .resume-body .leftpart-resume p {
+          width: 100%;
+      }
+
+      .timeline {
+          max-width: 100%;
+      }
+
+      .resume-body .rightpart-resume {
+          /* border:2px solid red; */
+          width: 70%;
+          left: 29.5%;
+      }
+
+      .resume-body .rightpart-resume h2 {
+          /* border:1px solid red; */
+          left: 20%;
+      }
+  }
+
+  /* LATEST MOBILE DEVICE LANDSCAPE MODE */
+  @media (max-width: 820px) {
+      *{
+          /* border:1px solid red; */
+      }
+      .resume-body .leftpart-resume p{
+          /* width:90%;     */
+      }
+      .timeline{
+          /* padding:2px; */
+      }
+      
+.leftpart-resume .container{
+    /* width:80%; */
+    /* border:2px solid green; */
+  }
+  .resume-body .leftpart-resume {
+
+    margin-left: 170px;
+    /* border:1px solid green; */
+  }
+  .resume-body .rightpart-resume {
+    /* border:2px solid red; */
+    width: 60%;
+    left: 27%;
+    margin-left: 0px;
+}
+.leftpart-resume h2 span h1 {
+    left: 17%;
+}
+
+.resume-body .rightpart-resume h2 {
+    /* border:2px solid white; */
+    left: 18%;
+}
+
+.rightpart-resume span h1 {
+    left: 13%;
+}
+.skills .design-skill {
+    width: 40%;
+    margin-left: 100px;
+
+}
+.skills{
+    /* border:1px solid blue; */
+}
+
+.skills .coding-skill {
+/* border:2px solid red; */
+    width: 40%;
+}
+.skills .design-skill h2 {
+    /* border:2px solid red; */
+    left: 5%;
+    width: 75%;
+}
+
+.skills .coding-skill h2 {
+    left: 5%;
+    /* border:2px solid red; */
+}
+
+  
+  }
+
+  @media (max-width: 768px) {
+      .timeline {
+          max-width: 98%;
+          padding: 25px;
+      }
+
+      .skills {
+          margin-left: 0px;
+      }
+
+      .leftpart-resume h2 span h1 {
+          left: 26%;
+      }
+
+      .resume-body .rightpart-resume h2 {
+          /* border:2px solid white; */
+          left: 18%;
+      }
+
+      .rightpart-resume span h1 {
+          left: 27%;
+      }
+      .resume-body .leftpart-resume {
+
+        margin-left: 230px;
+        /* border:1px solid green;   */
+      }
+
+      .resume-body .rightpart-resume {
+          /* border:2px solid red; */
+          /* width:70%; */
+          left: 26%;
+          /* border:none; */
+      }
+
+
+      /* .skills {
+            flex-direction: ;
+        } */
+      .skills .design-skill {
+          width: 40%;
+          margin-left: 260px;
+
+      }
+
+      .skills .coding-skill {
+          width: 40%;
+      }
+
+      * {
+          /* border:1px solid red; */
+      }
+
+
+  }
+
+  @media (max-width: 576px) {
+      .resume-body .rightpart-resume {
+          width: 66%;
+          left: 32%;
+      }
+
+      .resume-body .leftpart-resume {
+          width: 66%;
+          /* left:32%; */
+      }
+
+      .rightpart-resume span h1 {
+          left: 20.5%;
+      }
+
+      .leftpart-resume h2 span h1 {
+          left: 20.5%;
+      }
+
+      .resume-body .leftpart-resume h2 {
+          left: 23%;
+      }
+
+      .resume-body .rightpart-resume h2 {
+          left: 23%;
+      }
+
+      * {
+          /* border:1px solid red;     */
+      }
+  }
+
+
+  @media (max-width: 415px) {
+    #Resume{
+        margin-left:1.9%;
+      }  
+      .resume-body .leftpart-resume {
+          /* border:1px solid red; */
+          width: 60%;
+          margin-left: 230px;
+       
+        }
+
+      .resume-body .rightpart-resume {
+          /* border:1px solid red; */
+          width: 60%;
+          left: 39%;
+      }
+
+      .rightpart-resume span h1 {
+          left: 10.5%;
+          width: 80%
+      }
+
+      .leftpart-resume h2 span h1 {
+          left: 6.5%;
+          width: 87%;
+      }
+
+      .skills {
+          flex-direction: column;
+
+      }
+
+      .sk {
+          width: 95%;
+      }
+
+      .skills .design-skill {
+          width: 55%;
+          margin-left: 260px;
+          padding-bottom: 60px;
+          border: none;
+      }
+
+      .skills .coding-skill {
+          margin-left: 260px;
+          width: 55%;
+          border: none;
+      }
+
+      .skills .design-skill h2 {
+          left: 25%;
+          width: 60%;
+      }
+
+      .skills .coding-skill h2 {
+          left: 25%;
+          width: 60%;
+      }
+
+      .skills .design-skill span h1 {
+          left: -5%;
+      }
+
+      .skills .coding-skill span h1 {
+          left: -5%;
+      }
+
+      * {
+          /* border:1px solid red;     */
+      }
+
+  }
+
+  @media (max-width: 360px) {
+      .resume-body .leftpart-resume {
+          /* border:1px solid green; */
+          width: 55%;
+      }
+
+      .resume-body .rightpart-resume {
+          /* border:1px solid red; */
+          width: 55%;
+          left: 42.5%;
+      }
+
+      .rightpart-resume span h1 {
+          width: 95%;
+          left: 3.3%;
+      }
+
+      .leftpart-resume h2 span h1 {
+          width: 99%;
+          left: 1%;
+      }
+
+      * {
+          /* border:1px solid red; */
+      }
+
+      .skills .design-skill h2 {
+          left: 21%;
+          width: 60%;
+      }
+
+      .skills .coding-skill h2 {
+          left: 19%;
+          width: 60%;
+      }
+
+      .skills .coding-skill span h1 {
+          left: -6%;
+      }
+      #Resume{
+        margin-left:2.08%;
+      }  
+
+  }
+
+  @media (max-width: 767px) {
+      .timeline .event {
+          padding-top: 30px;
+      }
+  }
+
+  .timeline .event:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border: none;
+  }
+
+  .timeline .event:before,
+  .timeline .event:after {
+      position: absolute;
+      display: block;
+      top: 0;
+  }
+
+  .timeline .event:before {
+      left: -195px;
+      content: attr(data-date);
+      text-align: right;
+      font-weight: 100;
+      font-size: 0.9em;
+      min-width: 120px;
+  }
+
+  @media (max-width: 767px) {
+      .timeline .event:before {
+          left: 0px;
+          text-align: left;
+      }
+  }
+
+  .timeline .event:after {
+      -webkit-box-shadow: 0 0 0 3px #00A3E1;
+      box-shadow: 0 0 0 3px #00A3E1;
+      left: -55.8px;
+      background: #fff;
+      border-radius: 50%;
+      height: 9px;
+      width: 9px;
+      content: "";
+      top: 5px;
+  }
+
+  @media (max-width: 767px) {
+      .timeline .event:after {
+          left: -31.8px;
+      }
+  }
+
+  .rtl .timeline {
+      border-left: 0;
+      text-align: right;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      border-right: 3px solid #727cf5;
+  }
+
+  .rtl .timeline .event::before {
+      left: 0;
+      right: -170px;
+  }
+
+  .rtl .timeline .event::after {
+      left: 0;
+      right: -55.8px;
+  }
