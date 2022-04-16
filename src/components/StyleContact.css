@@ -239,6 +239,46 @@
 
 }
 
+
+/* MID Range Phones */
+
+@media (max-width : 432px)  {
+    #Contact {
+        margin-left: 11.5px;
+        }
+
+    .container .section2 {
+        /* border:2px solid red;  */
+        margin-left: 38%;
+        }
+        .container .section1 {
+            /* width:55%; */
+            left:40%;
+        /* border: 2px solid green;s */
+        }
+        .btn{
+            left:30%;   
+        }
+        .resume-body .talk h2 {
+
+            /* border:2px solid blue; */
+              left: 42%;
+              width: 60%;
+          }
+          .talk h2 span h1 {
+            left: 31.5%;
+        
+        
+        }
+        .col-7{
+            width:100%;
+           }    
+        *{
+            /* border: 2px solid red; */
+        }
+}
+
+
 /* LATEST MOBILES WITH LONG SCREEN  */
 
 @media(max-width:415px) {

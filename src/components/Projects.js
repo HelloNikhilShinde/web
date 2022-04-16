@@ -91,9 +91,9 @@ function Projects() {
                                         </div>
                                     </div>
                                     <br /><br />
-                                    <div className="card__collection clear-fix">
+                                    <div className="card__collection clear-fix pro3">
                                     <div className='info1'>
-                                    <h2 className="mb-20">Portfolio Version 1.0.0</h2> 
+                                    <h2 className="mb-20">Portfolio Version 1.0</h2> 
                                     <p>
                                     Portfolio Version 1.0 represents the previous version of a portfolio of Nikhil Shinde.
                                     Unlike this portfolio, V 1.0 was purely made from scratch with the help of HTML, CSS, and JS.  <br />

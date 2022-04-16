@@ -20,14 +20,16 @@ function App() {
   return (
 
 
-    <HashRouter>
+     <HashRouter>
+       {/* <Route> */}
       <div className=''>
         <Sideb />
         <AnimationPage />
         
 
       </div>
-    </HashRouter>
+       {/* </Route>  */}
+      </HashRouter> 
 
 
   );

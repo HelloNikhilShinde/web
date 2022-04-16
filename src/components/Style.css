@@ -1402,6 +1402,156 @@ input {
 }
 
 
+/* MID RANGE PHONES */
+@media (max-width : 432px) {
+
+  .partition {
+    position: fixed;
+    padding-bottom: 0px;
+    margin-top: -35px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    z-index: 1;
+    background-color: black;
+  }
+
+  .myname {
+    padding-top: 38px;
+    width: 100%;
+    margin-left: 20%;
+    border-left: 1px solid #3b3c43;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .nav-container .hamburger-lines {
+    top: 2%;
+    left: 6%;
+  }
+
+  .about-body .leftpart {
+    position: relative;
+    margin-left: 35%;
+    width: 58%;
+    text-align: left;
+    margin-right: 0px;
+  }
+
+  .about-body .rightpart {
+    text-align: left;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 17%;
+  }
+
+  .container .main-cont h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;
+  }
+
+
+  .navbar .nav-container a {
+    border-bottom: 2px solid white;
+    font-size: 24px;
+  }
+
+  .navbar .menu-items {
+    padding-top: 590px;
+
+  }
+
+  .navbar .menu-items li {
+    padding-bottom: 20px;
+  }
+
+  #Home {
+    height: 100vh;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-position: 95%;
+  }
+
+  #Home .main-cont {
+    margin-left: 18%;
+    /* No change */
+    width: 48%;
+  }
+
+  .about-body {
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-super .page-head h1 {
+    margin-left: 260px;
+    min-width: 200px;
+
+  }
+
+  .about-super .page-head span {
+    position: relative;
+    padding-top: 15px;
+    margin-left: 18%;
+  }
+
+  .bor {
+    margin-left: 30%;
+    width: 55%;
+  }
+
+
+  .about-body img {
+    width: 300px;
+  }
+
+  .about-super .page-head {
+    flex-direction: row;
+  }
+
+  .service-cont {
+    position: relative;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .service-cont .one, .service-cont .two, .service-cont .three, .service-cont .four {
+    width: auto;
+    margin-left: 160px
+  }
+
+  .service-cont .three .fa {
+
+    margin-left: 14px;
+
+  }
+
+  .service .container {
+    width: auto;
+    margin-left: 160px;
+  }
+
+  .service .container h1 {
+    margin-bottom: 0px;
+    margin-left: 100px;
+    text-align: center;
+    width: auto;
+  }
+
+  .service span h1 {
+    width: 24%;
+    margin-left: 56%;
+  }
+
+}
+
+
+
+
 /* NIKHIL AND PAPPA'S PHONE SCREEN RESOLUTION */
 
 @media (max-width: 365px) {
