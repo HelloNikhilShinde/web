@@ -5,13 +5,15 @@
 * {
   margin: 0;
   padding: 0;
+
 }
+
 
 
 
 #Home {
 
-  height: 713px;
+  height: 100vh;
   width: 100%;
   padding: 0;
   margin-left: 50px;
@@ -1057,7 +1059,7 @@ input {
   }
 
   #Home {
-    height: 625px;
+    height: 100vh;
     width: 100%;
     margin-left: 1.2%;
   }
@@ -1204,7 +1206,7 @@ input {
   }
 
   #Home {
-    height: 625px;
+    height: 100vh;
     width: 100%;
     padding: 0px;
     background-size: cover;
@@ -1377,6 +1379,7 @@ input {
     margin-left: 160px
   }
 
+
   .service-cont .three .fa {
 
     margin-left: 14px;
@@ -1528,6 +1531,9 @@ input {
 
     margin-left: 14px;
 
+  }
+  .service-cont .four .fa{
+    margin-left: 5px;
   }
 
   .service .container {
