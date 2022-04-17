@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.31ca54fe.css",
+    "main.css": "/web/static/css/main.2717a9b7.css",
     "main.js": "/web/static/js/main.ec04d6f3.js",
     "static/js/787.1ed0c42c.chunk.js": "/web/static/js/787.1ed0c42c.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -16,12 +16,12 @@
     "static/media/signaturenick1.png": "/web/static/media/signaturenick1.df751b291e894a8177f7.png",
     "static/media/NickPic.jpg": "/web/static/media/NickPic.de5ec59a66a7022485ff.jpg",
     "index.html": "/web/index.html",
-    "main.31ca54fe.css.map": "/web/static/css/main.31ca54fe.css.map",
+    "main.2717a9b7.css.map": "/web/static/css/main.2717a9b7.css.map",
     "main.ec04d6f3.js.map": "/web/static/js/main.ec04d6f3.js.map",
     "787.1ed0c42c.chunk.js.map": "/web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31ca54fe.css",
+    "static/css/main.2717a9b7.css",
     "static/js/main.ec04d6f3.js"
   ]
 }
