@@ -781,7 +781,8 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 62px;
+  height: 38px;
+  /* border:3px solid blue; */
 }
 
 .navbar .menu-items {
@@ -808,7 +809,7 @@ input {
 .nav-container {
   display: block;
   position: relative;
-  height: 60px;
+  height: 38px;
 }
 
 .nav-container .checkbox {
@@ -829,9 +830,9 @@ input {
   height: 26px;
   width: 32px;
   position: fixed;
-  top: 9px;
+  top: 6px;
   left: 20px;
-  z-index: 5;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -929,12 +930,18 @@ input {
 }
 
 .myname {
-  padding-top: 28px;
+  padding-top: 8px;
   width: 100%;
-  margin-left: 20%;
+  position: fixed;
+  background-color: #000;
   border-left: 1px solid #3b3c43;
   color: whitesmoke;
   text-align: center;
+}
+
+.myname h2{
+  position: relative;
+  left:5%;
 }
 
 
@@ -1272,12 +1279,7 @@ input {
   }
 
   .myname {
-    padding-top: 38px;
-    width: 100%;
-    margin-left: 20%;
-    border-left: 1px solid #3b3c43;
-    color: whitesmoke;
-    text-align: center;
+    padding-top: 8px; 
   }
 
   .nav-container .hamburger-lines {
@@ -1323,7 +1325,7 @@ input {
 
   #Home {
     height: 100vh;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-left: 2%;
     background-position: 95%;
   }
@@ -1420,16 +1422,13 @@ input {
   }
 
   .myname {
-    padding-top: 38px;
-    width: 100%;
-    margin-left: 20%;
-    border-left: 1px solid #3b3c43;
-    color: whitesmoke;
+    padding-top: 8px; 
+
     text-align: center;
   }
 
   .nav-container .hamburger-lines {
-    top: 2%;
+    top: 1%;
     left: 6%;
   }
 
@@ -1471,7 +1470,7 @@ input {
 
   #Home {
     height: 100vh;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-left: 2%;
     background-position: 95%;
   }
@@ -1563,7 +1562,7 @@ input {
 @media (max-width: 365px) {
   .nav-container .hamburger-lines {
 
-    top: 2%;
+    top: 1%;
     left: 6%;
 
   }

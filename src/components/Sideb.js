@@ -86,8 +86,9 @@ function Sideb() {
         <nav>
         <div className="navbar">
           <div className="container nav-container">
+          {/* <div className="partition"> */}
               <input className="checkbox" type="checkbox" name="checkbox" id="checkbox"  onClick={handleClick} checked={checked}  />
-              <div className="partition">
+             
               <div className="hamburger-lines">
                 <span className="line line1"></span>
                 <span className="line line2"></span>
@@ -97,8 +98,8 @@ function Sideb() {
               <div className="myname">
                   <h2>NIKHIL SHINDE</h2>
                   </div>  
-                  </div>
-        
+                  {/* </div>
+         */}
             <div className="menu-items" >  
             <li>
                         <a onClick={() => {setChecked(!checked)}}>
