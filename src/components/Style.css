@@ -934,7 +934,6 @@ input {
   width: 100%;
   position: fixed;
   background-color: #000;
-  border-left: 1px solid #3b3c43;
   color: whitesmoke;
   text-align: center;
 }
@@ -1155,6 +1154,23 @@ input {
   }
 }
 
+@media (max-width: 700px) {
+
+  
+  .navbar .nav-container a {
+    font-size: 18px;
+  }
+
+  .navbar .menu-items {
+    padding-top: 110px;
+/* padding-bottom: 10px; */
+  }
+
+ .navbar .menu-items li{
+   padding-bottom: 1px;
+ }
+}
+
 @media (max-width: 630px) {
   .navbar .nav-container a {
     font-size: 18px;
@@ -1164,6 +1180,7 @@ input {
     padding-top: 130px;
 
   }
+ 
 
 
 }
