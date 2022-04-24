@@ -491,7 +491,7 @@
 
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 769px) {
       .timeline .event {
           padding-top: 30px;
       }
@@ -519,7 +519,7 @@
       min-width: 120px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 769px) {
       .timeline .event:before {
           left: 0px;
           text-align: left;
@@ -538,7 +538,7 @@
       top: 5px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 769px) {
       .timeline .event:after {
           left: -31.8px;
       }
