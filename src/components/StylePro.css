@@ -496,7 +496,7 @@ font-size:17px
 }
 
 /* TABLET */
-@media(max-width:769px) {
+@media(max-width:775px) {
 
   .card__collection .cards{
     width: 300px;

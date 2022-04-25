@@ -728,7 +728,7 @@ input {
 
 @media(min-width:800px) {}
 
-@media(min-width:769px) {
+@media(min-width:775px) {
 
 
 
@@ -998,7 +998,7 @@ input {
 }
 
 
-@media(max-width:769px) {
+@media(max-width:775px) {
 
   .navbar .menu-items .social_media .fa {
     padding: 12px;

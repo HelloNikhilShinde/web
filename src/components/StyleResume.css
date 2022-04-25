@@ -120,7 +120,7 @@
       }
 
       .resume-body .leftpart-resume h2 {
-          left: 20%;
+          left: 12%;
       }
 
       .resume-body .leftpart-resume p {
@@ -209,7 +209,7 @@
   
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 775px) {
       .timeline {
           max-width: 98%;
           padding: 25px;
@@ -229,7 +229,7 @@
       }
 
       .rightpart-resume span h1 {
-          left: 27%;
+          left: 23%;
       }
       .resume-body .leftpart-resume {
 
@@ -491,7 +491,7 @@
 
   }
 
-  @media (max-width: 769px) {
+  @media (max-width:775px) {
       .timeline .event {
           padding-top: 30px;
       }
@@ -519,7 +519,7 @@
       min-width: 120px;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 775px) {
       .timeline .event:before {
           left: 0px;
           text-align: left;
@@ -538,7 +538,7 @@
       top: 5px;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 775px) {
       .timeline .event:after {
           left: -31.8px;
       }
