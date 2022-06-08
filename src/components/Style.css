@@ -418,7 +418,6 @@ body {
   border-left: 2px solid #00A3E1;
   border-bottom: 2px solid #00A3E1;
   height: 10px;
-
 }
 
 .leftpart-resume h2 span h1 {
@@ -428,20 +427,17 @@ body {
   border-bottom: 2px solid #00A3E1;
   height: 10px;
   width: 165px;
-  left: 21%;
-
-
+  left: 20%;
 }
 
-.rightpart-resume span h1 {
+.rightpart-resume h2 span h1 {
   position: relative;
   border-right: 2px solid #00A3E1;
   border-left: 2px solid #00A3E1;
   border-bottom: 2px solid #00A3E1;
   height: 10px;
-  width: 158px;
-  left: 22.5%;
-
+  width: 162px;
+  left: 20.9%;
 }
 
 .skills .design-skill span h1 {
@@ -450,8 +446,8 @@ body {
   border-left: 2px solid #00A3E1;
   border-bottom: 2px solid #00A3E1;
   height: 10px;
-  width: 185px;
-  left: -2%;
+  width: 192px;
+  left: -2.7%;
 }
 
 .skills h3 {
@@ -465,8 +461,7 @@ body {
   border-bottom: 2px solid #00A3E1;
   height: 10px;
   width: 195px;
-  left: -2%;
-
+  left: -2.9%;
 }
 
 .service h1 {
@@ -938,9 +933,9 @@ input {
   text-align: center;
 }
 
-.myname h2{
+.myname h2 {
   position: relative;
-  left:5%;
+  left: 5%;
 }
 
 
@@ -962,6 +957,7 @@ input {
   .bor {
     margin-left: 17%;
     width: 69%;
+    /* border:2px solid red; */
   }
 
   .service-cont {
@@ -1156,19 +1152,19 @@ input {
 
 @media (max-width: 700px) {
 
-  
+
   .navbar .nav-container a {
     font-size: 18px;
   }
 
   .navbar .menu-items {
     padding-top: 110px;
-/* padding-bottom: 10px; */
+    /* padding-bottom: 10px; */
   }
 
- .navbar .menu-items li{
-   padding-bottom: 1px;
- }
+  .navbar .menu-items li {
+    padding-bottom: 1px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -1180,7 +1176,7 @@ input {
     padding-top: 130px;
 
   }
- 
+
 
 
 }
@@ -1296,7 +1292,7 @@ input {
   }
 
   .myname {
-    padding-top: 8px; 
+    padding-top: 8px;
   }
 
   .nav-container .hamburger-lines {
@@ -1439,7 +1435,7 @@ input {
   }
 
   .myname {
-    padding-top: 8px; 
+    padding-top: 8px;
 
     text-align: center;
   }
@@ -1548,7 +1544,8 @@ input {
     margin-left: 14px;
 
   }
-  .service-cont .four .fa{
+
+  .service-cont .four .fa {
     margin-left: 5px;
   }
 
