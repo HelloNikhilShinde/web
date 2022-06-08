@@ -30,7 +30,6 @@
     "yup": "^0.28.5"
   },
   "scripts": {
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
