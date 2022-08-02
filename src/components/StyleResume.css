@@ -81,9 +81,6 @@
       /* border : 2px solid white; */
       max-width: 100%;
   }
-
-
-
   .timeline h1 {
       font-style: bold;
       font-size: 1.4em;
@@ -145,68 +142,76 @@
 
   /* LATEST MOBILE DEVICE LANDSCAPE MODE */
   @media (max-width: 820px) {
-      *{
+      * {
           /* border:1px solid red; */
       }
-      .resume-body .leftpart-resume p{
+
+      .resume-body .leftpart-resume p {
           /* width:90%;     */
       }
-      .timeline{
+
+      .timeline {
           /* padding:2px; */
       }
-      
-.leftpart-resume .container{
-    /* width:80%; */
-    /* border:2px solid green; */
-  }
-  .resume-body .leftpart-resume {
 
-    margin-left: 170px;
-    /* border:1px solid green; */
-  }
-  .resume-body .rightpart-resume {
-    /* border:2px solid red; */
-    width: 60%;
-    left: 27%;
-    margin-left: 0px;
-}
-.leftpart-resume h2 span h1 {
-    left: 17%;
-}
+      .leftpart-resume .container {
+          /* width:80%; */
+          /* border:2px solid green; */
+      }
 
-.resume-body .rightpart-resume h2 {
-    /* border:2px solid white; */
-    left: 18%;
-}
+      .resume-body .leftpart-resume {
 
-.rightpart-resume span h1 {
-    left: 13%;
-}
-.skills .design-skill {
-    width: 40%;
-    margin-left: 100px;
+          margin-left: 170px;
+          /* border:1px solid green; */
+      }
 
-}
-.skills{
-    /* border:1px solid blue; */
-}
+      .resume-body .rightpart-resume {
+          /* border:2px solid red; */
+          width: 60%;
+          left: 27%;
+          margin-left: 0px;
+      }
 
-.skills .coding-skill {
-/* border:2px solid red; */
-    width: 40%;
-}
-.skills .design-skill h2 {
-    /* border:2px solid red; */
-    left: 5%;
-    width: 75%;
-}
+      .leftpart-resume h2 span h1 {
+          left: 17%;
+      }
 
-.skills .coding-skill h2 {
-    left: 5%;
-    /* border:2px solid red; */
-}
+      .resume-body .rightpart-resume h2 {
+          /* border:2px solid white; */
+          left: 18%;
+      }
 
-  
+      .rightpart-resume span h1 {
+          left: 13%;
+      }
+
+      .skills .design-skill {
+          width: 40%;
+          margin-left: 100px;
+
+      }
+
+      .skills {
+          /* border:1px solid blue; */
+      }
+
+      .skills .coding-skill {
+          /* border:2px solid red; */
+          width: 40%;
+      }
+
+      .skills .design-skill h2 {
+          /* border:2px solid red; */
+          left: 5%;
+          width: 75%;
+      }
+
+      .skills .coding-skill h2 {
+          left: 5%;
+          /* border:2px solid red; */
+      }
+
+
   }
 
   @media (max-width: 775px) {
@@ -231,10 +236,11 @@
       .rightpart-resume span h1 {
           left: 23%;
       }
+
       .resume-body .leftpart-resume {
 
-        margin-left: 230px;
-        /* border:1px solid green;   */
+          margin-left: 230px;
+          /* border:1px solid green;   */
       }
 
       .resume-body .rightpart-resume {
@@ -297,17 +303,18 @@
       }
   }
 
-/* MID RANGE PHONES */
-@media (max-width: 432px) {
-    #Resume{
-        margin-left:1.9%;
-      }  
+  /* MID RANGE PHONES */
+  @media (max-width: 432px) {
+      #Resume {
+          margin-left: 1.9%;
+      }
+
       .resume-body .leftpart-resume {
           /* border:1px solid red; */
           width: 60%;
           margin-left: 230px;
-       
-        }
+
+      }
 
       .resume-body .rightpart-resume {
           /* border:1px solid red; */
@@ -374,15 +381,16 @@
   /*  */
 
   @media (max-width: 415px) {
-    #Resume{
-        margin-left:1.9%;
-      }  
+      #Resume {
+          margin-left: 1.9%;
+      }
+
       .resume-body .leftpart-resume {
           /* border:1px solid red; */
           width: 60%;
           margin-left: 230px;
-       
-        }
+
+      }
 
       .resume-body .rightpart-resume {
           /* border:1px solid red; */
@@ -485,9 +493,10 @@
       .skills .coding-skill span h1 {
           left: -6%;
       }
-      #Resume{
-        margin-left:2.08%;
-      }  
+
+      #Resume {
+          margin-left: 2.08%;
+      }
 
   }
 

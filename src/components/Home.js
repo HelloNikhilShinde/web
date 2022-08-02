@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 import TypeWriterEffect from 'typewriter-effect';
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-import {motion} from 'framer-motion';;
+import { motion } from 'framer-motion';;
 function Home() {
 
   const el = useRef(null);
@@ -28,41 +28,29 @@ function Home() {
   }, []);
 
   return (
-
-
-   
-
-
-   <motion.div 
-    className='super' 
-    initial={{scaleX : 0,transition:{ duration:0.3}}}
-    animate={{scaleX : 1,transition:{ duration:0.3}}}
-    exit={{scaleX : 0,transition:{ duration:0.3}}}
-    >  
-
-     <div id="wrapper" className="uniq">
-      
-      <div id="page-content-wrapper">
-    
-        <div className="container-fluid">
-       
-          <div className="row">
-        
-            <div className="col-lg-12">
-            
-              <div id="Home" className="container">
-              <div className="main-cont" > 
-                  <h1>Nikhil <span>Shinde</span> </h1>
-                  <h2>I am <span className="input" ref={el}></span></h2>
+    <motion.div
+      className='super'
+      initial={{ scaleX: 0, transition: { duration: 0.3 } }}
+      animate={{ scaleX: 1, transition: { duration: 0.3 } }}
+      exit={{ scaleX: 0, transition: { duration: 0.3 } }}
+    >
+      <div id="wrapper" className="uniq">
+        <div id="page-content-wrapper">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-12">
+                <div id="Home" className="container">
+                  <div className="main-cont" >
+                    <h1>Nikhil <span>Shinde</span> </h1>
+                    <h2>I am <span className="input" ref={el}></span></h2>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </motion.div>
-
   );
 }
 export default Home;
