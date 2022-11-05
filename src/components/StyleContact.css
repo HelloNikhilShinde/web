@@ -1,3 +1,36 @@
+.test1 {}
+
+.section1 .form-group .animation1 {
+    position: relative;
+    /* border : 2px solid red !important;   */
+    border: 2px solid transparent !important;
+    /* width: 32%; */
+    height: 1%;
+    /* padding-top:10%; */
+    /* margin-left: 13.2%; */
+}
+
+.animation1 .btn-primary {
+    /* background-color:rgb(255, 4, 4); */
+    border: 3px solid red;
+    /* transition: 3s; */
+    color: rgb(0, 0, 0);
+
+}
+
+.section1 .form-group .animation1:hover .btn {
+    transition: transform 0.4s ease-in-out;
+    transform: translate(350px, -17vh);
+
+}
+
+.section1 .form-group .animation1 .btn {
+    margin-bottom: 10%;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+
 .container .section1 {
     position: relative;
     left: 15%;
@@ -5,7 +38,7 @@
     /* border:2px solid white; */
     height: auto;
     padding-bottom: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     width: 70%;
 }
 
@@ -148,6 +181,30 @@
 /* TABLET */
 @media(max-width:775px) {
 
+    /* SUBMIT BUTTON CHANGES 05/11/2022 */
+
+    .animation1 .btn-primary {
+        border: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .section1 .form-group .animation1:hover .btn {
+        transition: none;
+        transform: none;
+
+    }
+
+    .section1 .form-group .animation1 .btn {
+        margin-bottom: none;
+        transition: none;
+    }
+
+    .section1 .form-group .animation1 {
+        margin-left: 0;
+        border: 2px solid red;
+    }
+
+    /* SUBMIT BUTTON CHANGES ENDS */
     #Contact {
         margin-left: 11px;
     }
@@ -166,6 +223,7 @@
         margin-bottom: 10px;
         /* border: 2px solid green;s */
     }
+
     /* .talk{
          text-align: center;
         margin-left: 1px;

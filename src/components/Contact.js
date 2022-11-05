@@ -10,8 +10,8 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import emailjs from '@emailjs/browser';
-import { motion } from 'framer-motion';
-
+import { checkTargetForNewValues, motion } from 'framer-motion';
+import Swal from 'sweetalert2'
 
 const Contact = () => {
     const form = useRef();
@@ -26,7 +26,60 @@ const Contact = () => {
             });
         //   alert("Email Sended Success");
     };
+    //  const chk=document.querySelector('#naaa');
+    // // const remove=document.querySelector('.text-white');
+    //  var time = 0
+    //     if (chk.htmlFor == "")
+    //     {           
+    //         // chk.classList.remove('animation1');  
+    //         chk.classList.remove('animation1'); 
+    //         // console.log("INSIDE IF BLOCK CHK")  
+    //     }
 
+    // const chk = document.querySelector('#naa');
+    // chk.addEventListener('click', () => {
+    //   if (chk && chk.value.length > 0 ) 
+    //   { 
+    //     chk.classList.remove('animation1');   
+    // }
+    // })
+
+    // if(document.getElementById("naa").value== "")
+    // {
+    //     // console.log("INSIDE IF BLOCK ") 
+    //     // chk.classList.remove('animation1');
+    // }
+    // else{
+    //     console.log("INSIDE else BLOCK ") 
+    // }
+
+    function Funcheck() {
+        var flag = 0;
+        var chk = document.querySelector('#naa')
+        var exchk = document.querySelector("#naaa")
+        console.log("FLAG BEFORE CHECK",flag);
+        if (chk && chk.value.length == 0) {
+            flag = 1;
+            console.log(chk.value.length)
+            console.log("value of flag inside chk is", flag)
+        }
+        else {
+            console.log(chk.value.length)
+            console.log("inside else of chk")
+            // flag = 0;
+        }
+        console.log("FLAG AFTER CHECK",flag);
+
+         if (flag == 1) {
+             console.log("value of flag inside exchk is", flag)
+             exchk.classList.toggle("test1")
+         }
+         else {
+             console.log("inside else of exchk", flag)
+             
+         }
+
+    }
 
 
     return (
@@ -79,13 +132,37 @@ const Contact = () => {
                                                         console.log(error.text);
                                                     },
                                                         // (alert('Alert For your User!') ? "" : location.reload();)
-                                                        alert("Thank you for contacting, Your message has been send successfully, Have a nice day :)"),
+                                                        // alert("Thank you for contacting, Your message has been send successfully, Have a nice day :)"),
+                                                        // Swal.fire({
+                                                        //     // position: 'top-end',
+                                                        //     icon: 'success',
+                                                        //     title: 'Your work has been saved',
+                                                        //     // showConfirmButton: false,
+                                                        //     timer: 2500
+                                                        //   })
 
+                                                        Swal.fire({
+                                                            title: 'Thank you for contacting, Email sent sucessfully',
+                                                            // showDenyButton: true,
+                                                            // showCancelButton: true,
+                                                            icon:'success',
+                                                            confirmButtonText: 'Ok',
+                                                            // denyButtonText: `Don't save`,
+                                                          }).then((result) => {
+                                                            /* Read more about isConfirmed, isDenied below */
+                                                            if (result.isConfirmed) {
+                                                            //   Swal.fire('Saved!', '', 'success')
+                                                              window.location.reload();
+                                                            } else  {
+                                                            //   Swal.fire('Changes are not saved', '', 'info')
+                                                              window.location.reload();
+                                                            }
+                                                          })
                                                     )
 
 
                                                 );
-                                                window.location.reload();
+                                                // window.location.reload();
 
 
 
@@ -105,19 +182,21 @@ const Contact = () => {
                                                 // <Form onSubmit={sendEmail} ref={form}>
                                                 <Form ref={form}>
                                                     <div className="form-group col-lg-5 ">
-                                                        <label htmlFor="name" className="text-white mt-10" >Name</label>
+                                                        <label htmlFor="name" id="mychk" className="text-white mt-10" >Name</label>
                                                         <Field name="name" id="naa" className={(formik.touched.name && formik.errors.name) ? 'form-control is-invalid text-white' : 'form-control text-white   '} type="text" />
                                                         {formik.touched.name && formik.errors.name ? (
-                                                            <div className="invalid-feedback">{formik.errors.name}</div>
+                                                         <div className="invalid-feedback">{formik.errors.name}</div>
                                                         ) : null}
+
                                                     </div>
 
                                                     <div className="form-group col-lg-5 ">
-                                                        <label htmlFor="email" className="text-white">Email Address</label>
+                                                        <label htmlFor="email" id="mychk" className="text-white">Email Address</label>
                                                         <Field name="email" id="naa" className={(formik.touched.email && formik.errors.email) ? 'form-control is-invalid text-white ' : 'form-control text-white '} type="email" />
                                                         {formik.touched.email && formik.errors.email ? (
                                                             <div className="invalid-feedback">{formik.errors.email}</div>
                                                         ) : null}
+
                                                     </div>
 
                                                     <div className="form-group col-lg-5">
@@ -126,10 +205,29 @@ const Contact = () => {
                                                     </div>
 
                                                     <div className="form-group mt-10">
+                                                        {
+                                                          formik.errors.name && formik.errors.email ==false
+                                                        }
+                                                       
+                                                        <div className={(!formik.errors.name && !formik.errors.email ) ? null : 'animation1' } >
+                                                            <button type="submit" className="btn btn-primary mine" disabled={formik.isSubmitting}>{formik.isSubmitting ? "Please wait..." : "Send Message"} </button>
+                                                        </div>  
+                                                        </div>
+                                                   
 
-                                                        <button type="submit" className="btn btn-primary" disabled={formik.isSubmitting}>{formik.isSubmitting ? "Please wait..." : "Send Message"} </button>
+                                                    {
+                                                        // formik.touched.name && formik.touched.email == 1 ? (
+                                                        //     console.log("inside condition",formik.touched.name,formik.touched.email )
+                                                        //     //  document.getElementById("naaa").classList.remove('animation1')
+                                                        //     //console.log("All Clear")
+                                                        // ) :  console.log("outside condition")
 
-                                                    </div>
+                                                        // formik.values.name && formik.values.email ? (document.getElementById('naa').classList.remove('animation1')) : console.log("outside condition")
+
+                                                    }
+
+
+
 
                                                 </Form>
                                             )
