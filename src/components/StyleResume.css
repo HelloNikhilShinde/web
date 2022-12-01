@@ -319,10 +319,10 @@
       .resume-body .rightpart-resume {
           /* border:1px solid red; */
           width: 60%;
-          left: 39%;
+          left: 38%;
       }
 
-      .rightpart-resume span h1 {
+      .rightpart-resume h2 span h1 {
           left: 10.5%;
           width: 80%
       }
@@ -365,7 +365,7 @@
       }
 
       .skills .design-skill span h1 {
-          left: -5%;
+          left: -7%;
       }
 
       .skills .coding-skill span h1 {
@@ -395,13 +395,15 @@
       .resume-body .rightpart-resume {
           /* border:1px solid red; */
           width: 60%;
-          left: 39%;
+          left: 38%;
       }
 
       .rightpart-resume span h1 {
           left: 10.5%;
           width: 80%
       }
+
+ 
 
       .leftpart-resume h2 span h1 {
           left: 6.5%;
@@ -441,7 +443,7 @@
       }
 
       .skills .design-skill span h1 {
-          left: -5%;
+          left: -7%;
       }
 
       .skills .coding-skill span h1 {
@@ -466,7 +468,7 @@
           left: 42.5%;
       }
 
-      .rightpart-resume span h1 {
+      .rightpart-resume h2 span h1 {
           width: 95%;
           left: 3.3%;
       }
