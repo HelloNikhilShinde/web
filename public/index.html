@@ -65,6 +65,15 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Nick's Portfolio</title>
+    <script>
+      let docTitle = document.title;
+      window.addEventListener("blur",() => {
+        document.title = "Come Back :( ";
+      })
+      window.addEventListener("focus", () => {
+        document.title = docTitle;
+      })
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
