@@ -17,7 +17,6 @@
     "font-awesome": "^4.7.0",
     "formik": "^2.2.9",
     "framer-motion": "^6.2.9",
-    "gh-pages": "^3.2.3",
     "hashrouter": "^1.1.1",
     "nodemailer": "^6.7.3",
     "react": "^17.0.2",
@@ -55,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
