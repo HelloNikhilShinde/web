@@ -44,7 +44,7 @@ function Resume() {
 
                                                                 <div id="content">
                                                                     <ul className="timeline">
-                                                                        <li className="event" data-date="DEC 2020 *">
+                                                                        <li className="event" data-date="DEC 2021 *">
                                                                             <h1>ANALYST A4</h1>
                                                                             <span className="bo">
                                                                                 <p>CAPGEMINI, INDIA</p>

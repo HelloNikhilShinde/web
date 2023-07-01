@@ -12,6 +12,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import emailjs from '@emailjs/browser';
 import { checkTargetForNewValues, motion } from 'framer-motion';
 import Swal from 'sweetalert2'
+import ClickSound from './ButtonClickSound.mp3'
 
 const Contact = () => {
     const form = useRef();
@@ -121,6 +122,7 @@ const Contact = () => {
 
                                         <Formik
                                             initialValues={{ name: '', email: '', content: '' }}
+                                            
                                             onSubmit={(values, { setSubmitting }) => {
                                                 setTimeout(() => {
                                                     // alert(JSON.stringify(values, null, 2));
@@ -131,16 +133,6 @@ const Contact = () => {
                                                     }, (error) => {
                                                         console.log(error.text);
                                                     },
-                                                        // (alert('Alert For your User!') ? "" : location.reload();)
-                                                        // alert("Thank you for contacting, Your message has been send successfully, Have a nice day :)"),
-                                                        // Swal.fire({
-                                                        //     // position: 'top-end',
-                                                        //     icon: 'success',
-                                                        //     title: 'Your work has been saved',
-                                                        //     // showConfirmButton: false,
-                                                        //     timer: 2500
-                                                        //   })
-
                                                         Swal.fire({
                                                             title: 'Thank you for contacting, Email sent sucessfully',
                                                             // showDenyButton: true,
@@ -150,12 +142,16 @@ const Contact = () => {
                                                             // denyButtonText: `Don't save`,
                                                           }).then((result) => {
                                                             /* Read more about isConfirmed, isDenied below */
+                                                            const audio = new Audio(ClickSound);
+                                                            audio.play()
                                                             if (result.isConfirmed) {
                                                             //   Swal.fire('Saved!', '', 'success')
-                                                              window.location.reload();
-                                                            } else  {
+                                                                
+                                                                window.location.reload();
+                                                            } 
+                                                            else  {
                                                             //   Swal.fire('Changes are not saved', '', 'info')
-                                                              window.location.reload();
+                                                                 window.location.reload();
                                                             }
                                                           })
                                                     )
