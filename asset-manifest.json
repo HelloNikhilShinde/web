@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.9b5b9a7f.css",
-    "main.js": "/web/static/js/main.53ab77a5.js",
+    "main.js": "/web/static/js/main.f3f83881.js",
     "static/js/787.1ed0c42c.chunk.js": "/web/static/js/787.1ed0c42c.chunk.js",
     "static/media/NikhilShinde_9370621842.pdf": "/web/static/media/NikhilShinde_9370621842.9052fe01f89c63841644.pdf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -18,11 +18,11 @@
     "static/media/ButtonClickSound.mp3": "/web/static/media/ButtonClickSound.42364d3ef775f3d42a0b.mp3",
     "index.html": "/web/index.html",
     "main.9b5b9a7f.css.map": "/web/static/css/main.9b5b9a7f.css.map",
-    "main.53ab77a5.js.map": "/web/static/js/main.53ab77a5.js.map",
+    "main.f3f83881.js.map": "/web/static/js/main.f3f83881.js.map",
     "787.1ed0c42c.chunk.js.map": "/web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b5b9a7f.css",
-    "static/js/main.53ab77a5.js"
+    "static/js/main.f3f83881.js"
   ]
 }
