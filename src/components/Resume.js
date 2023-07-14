@@ -45,7 +45,7 @@ function Resume() {
                                                                 <div id="content">
                                                                     <ul className="timeline">
                                                                         <li className="event" data-date="DEC 2021 *">
-                                                                            <h1>ANALYST A4</h1>
+                                                                            <h1>Senior Software Engineer</h1>
                                                                             <span className="bo">
                                                                                 <p>CAPGEMINI, INDIA</p>
                                                                             </span>
@@ -55,7 +55,7 @@ function Resume() {
                                                                             </p>
                                                                         </li>
                                                                         <li className="event" data-date="JUL 2021-DEC 2021">
-                                                                            <h1>TESTER TRAINEE</h1>
+                                                                            <h1>Software Trainee</h1>
                                                                             <span className="bo">
                                                                                 <p>FAURECIA INDIA, PVT. LTD. </p>
                                                                             </span>
@@ -64,7 +64,7 @@ function Resume() {
                                                                             </p>
                                                                         </li>
                                                                         <li className="event" data-date="DEC 2020-FEB 2021">
-                                                                            <h1>WEB DEVELOPER INTERN</h1>
+                                                                            <h1>Web Developer Intern</h1>
                                                                             <span className="bo">
                                                                                 <p>THE SPARKS FOUNDATION </p>
                                                                             </span>
@@ -95,7 +95,7 @@ function Resume() {
                                                                 <div id="content">
                                                                     <ul className="timeline">
                                                                         <li className="event" data-date="2017-21">
-                                                                            <h1>B.E COMPUTER ENGINEER</h1>
+                                                                            <h1>B.E. Computer Engineering</h1>
                                                                             <span className="bo">
                                                                                 <p>MMCOE, PUNE</p>
                                                                             </span>
@@ -107,14 +107,14 @@ function Resume() {
                                                                         </li>
 
                                                                         <li className="event" data-date="2016-17">
-                                                                            <h1>SENIOR SECONDARY</h1>
+                                                                            <h1>Senior Secondary</h1>
                                                                             <span className="bo">
                                                                                 <p>NMV HIGH SCHOOL</p>
                                                                             </span>
                                                                             <p></p>
                                                                         </li>
-                                                                        <li className="event" data-date="2014-15">
-                                                                            <h1>HIGHER SECONDARY</h1>
+                                                                        <li className="event" data-date="2015-16">
+                                                                            <h1>Higher Secondary</h1>
                                                                             <span className="bo">
                                                                                 <p>NMV HIGH SCHOOL</p>
                                                                             </span>
