@@ -33,7 +33,7 @@ function About() {
 
                                                 Hello, Thank you for landing on this portfolio.
                                                 As you might have already read my name on the home page itself, My name is Nikhil Shinde and currently,
-                                                I'm working as a software developer in Capgemini, India.
+                                                I'm working as a senior software developer in Capgemini, India.
                                                 I'm passionate about web development as well as software development.
                                                 I like to work with new people on new technologies.
                                                 I am a team player who is always ready to contribute the best of me for the betterment of the organization I am working with.
