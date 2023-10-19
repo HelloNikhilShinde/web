@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import signaturenick1 from '../PICS/signaturenick1.png'
 // import NikhilShindeResume from '../Docs/NikhilShindeResume.pdf'
-import NikhilShindeResume_9370621842 from '../Docs/Nikhil_Shinde_Resume.pdf'
+import NikhilShindeResume_9370621842 from '../Docs/NikhilShindeResume_9370621842.pdf'
 import { motion } from 'framer-motion';
 
 function About() {
