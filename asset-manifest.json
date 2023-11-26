@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.9b5b9a7f.css",
-    "main.js": "/web/static/js/main.3dfe1d66.js",
+    "main.js": "/web/static/js/main.e09960c2.js",
     "static/js/787.1ed0c42c.chunk.js": "/web/static/js/787.1ed0c42c.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/SP4.png": "/web/static/media/SP4.d9971a1a33ed11b66dca.png",
@@ -14,15 +14,16 @@
     "static/media/NikhilShindeResume_9370621842.pdf": "/web/static/media/NikhilShindeResume_9370621842.601a527ec7a671ceaf42.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/web/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/signaturenick1.png": "/web/static/media/signaturenick1.df751b291e894a8177f7.png",
+    "static/media/NickPic2.jpeg": "/web/static/media/NickPic2.3b76438940be9f426342.jpeg",
     "static/media/NickPic.jpg": "/web/static/media/NickPic.de5ec59a66a7022485ff.jpg",
     "static/media/ButtonClickSound.mp3": "/web/static/media/ButtonClickSound.42364d3ef775f3d42a0b.mp3",
     "index.html": "/web/index.html",
     "main.9b5b9a7f.css.map": "/web/static/css/main.9b5b9a7f.css.map",
-    "main.3dfe1d66.js.map": "/web/static/js/main.3dfe1d66.js.map",
+    "main.e09960c2.js.map": "/web/static/js/main.e09960c2.js.map",
     "787.1ed0c42c.chunk.js.map": "/web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b5b9a7f.css",
-    "static/js/main.3dfe1d66.js"
+    "static/js/main.e09960c2.js"
   ]
 }
