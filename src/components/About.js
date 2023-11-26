@@ -3,9 +3,18 @@ import signaturenick1 from '../PICS/signaturenick1.png'
 // import NikhilShindeResume from '../Docs/NikhilShindeResume.pdf'
 import NikhilShindeResume_9370621842 from '../Docs/NikhilShindeResume_9370621842.pdf'
 import { motion } from 'framer-motion';
+import { date } from "yup";
 
 function About() {
+    var currentDate = new Date();
+    var Nikhil_Birth_year=new Date(1999, 11, 6); // Months are zero-based, so 11 represents December
+    var yearsDiff = currentDate.getFullYear() - Nikhil_Birth_year.getFullYear();
+    var monthsDiff = currentDate.getMonth() - Nikhil_Birth_year.getFullYear();
+    if (monthsDiff < 0 || (monthsDiff === 0 )) {
+        yearsDiff--;
+    }
     return (
+        
 
 
         <motion.div className="super"
@@ -47,24 +56,24 @@ function About() {
                                             <h2>Personal Information</h2> <br />
                                             <ul>
                                                 <li>
-                                                    <span className="title">Name </span><span className="value">: Nikhil Shinde</span>
+                                                    <span className="title">Name</span><span className="value">: Nikhil Shinde</span>
                                                 </li>
                                                 <br />
                                                 <li>
-                                                    <span className="title">Age </span><span className="value">: 22 Years</span>
+                                                    <span className="title">Age</span><span className="value">: {yearsDiff} Years</span>
                                                 </li>
                                                 <br />
                                                 <li>
-                                                    <span className="title">Residence </span><span class="value">: Pune, INDIA</span>
+                                                    <span className="title">Residence</span><span class="value">: Pune, INDIA</span>
                                                 </li>
                                                 <br />
                                                 <li>
-                                                    <span className="title">Email </span><span className="value">:
+                                                    <span className="title">Email</span><span className="value">:
                                                         nikhilshinde221@gmail.com</span>
                                                 </li>
                                                 <br />
                                                 <li>
-                                                    <span className="title">Phone </span><span className="value">: (+91) 9370621842</span>
+                                                    <span className="title">Phone</span><span className="value">: (+91) 9370621842</span>
                                                 </li>
 
                                                 {/* <li>
