@@ -6,11 +6,17 @@ import { motion } from 'framer-motion';
 import { date } from "yup";
 
 function About() {
+    //Below code is to automate Master Nikhil's Age each year exatcly on 6th December. Someone need to stop the calculation when I die :)   
     var currentDate = new Date();
-    var Nikhil_Birth_year=new Date(1999, 11, 6); // Months are zero-based, so 11 represents December
-    var yearsDiff = currentDate.getFullYear() - Nikhil_Birth_year.getFullYear();
-    var monthsDiff = currentDate.getMonth() - Nikhil_Birth_year.getFullYear();
-    if (monthsDiff < 0 || (monthsDiff === 0 )) {
+    var Nikhil_Birth_Info=new Date(1999, 11, 6); // Months are zero-based, so 11 represents December
+    var yearsDiff = currentDate.getFullYear() - Nikhil_Birth_Info.getFullYear();
+    var monthDiff = currentDate.getMonth() - Nikhil_Birth_Info.getMonth();
+    var daysDiff = currentDate.getDate() - Nikhil_Birth_Info.getDate();
+    if (monthDiff < 0){
+        yearsDiff--;
+    }
+    if (monthDiff === 0 && daysDiff != 0 && daysDiff < 0)
+    {
         yearsDiff--;
     }
     return (
