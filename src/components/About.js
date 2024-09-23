@@ -8,19 +8,18 @@ import { date } from "yup";
 function About() {
     //Below code is to automate Master Nikhil's Age each year exatcly on 6th December. Someone need to stop the calculation when I die :)   
     var currentDate = new Date();
-    var Nikhil_Birth_Info=new Date(1999, 11, 6); // Months are zero-based, so 11 represents December
+    var Nikhil_Birth_Info = new Date(1999, 11, 6); // Months are zero-based, so 11 represents December
     var yearsDiff = currentDate.getFullYear() - Nikhil_Birth_Info.getFullYear();
     var monthDiff = currentDate.getMonth() - Nikhil_Birth_Info.getMonth();
     var daysDiff = currentDate.getDate() - Nikhil_Birth_Info.getDate();
-    if (monthDiff < 0){
+    if (monthDiff < 0) {
         yearsDiff--;
     }
-    if (monthDiff === 0 && daysDiff != 0 && daysDiff < 0)
-    {
+    if (monthDiff === 0 && daysDiff != 0 && daysDiff < 0) {
         yearsDiff--;
     }
     return (
-        
+
 
 
         <motion.div className="super"
@@ -46,13 +45,7 @@ function About() {
                                             <h2>Software Developer</h2><br />
                                             <p>
 
-                                                Hello, Thank you for landing on this portfolio.
-                                                As you might have already read my name on the home page itself, My name is Nikhil Shinde and currently,
-                                                I'm working as a senior software developer in Capgemini, India.
-                                                I'm passionate about web development as well as software development.
-                                                I like to work with new people on new technologies.
-                                                I am a team player who is always ready to contribute the best of me for the betterment of the organization I am working with.
-                                                I believe in smart work without compromising quality.
+                                                Welcome to my portfolio! I'm Nikhil Shinde, currently serving as a Senior Analyst at Accenture, India. I have a deep passion for both web and software development and enjoy collaborating with innovative minds on cutting-edge technologies. As a dedicated team player, I am committed to delivering excellence and contributing to the growth and success of the organizations I work with. My approach emphasizes efficiency and quality, ensuring that every project I undertake is executed with precision and creativity. Thank you for visiting, and I look forward to connecting!
                                                 <br /><br />
                                                 <span1>"Talent wins games, but teamwork and intelligence wins championships" </span1>
                                             </p>

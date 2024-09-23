@@ -44,14 +44,25 @@ function Resume() {
 
                                                                 <div id="content">
                                                                     <ul className="timeline">
-                                                                        <li className="event" data-date="DEC 2021 *">
+                                                                        {/* Edit made after leaving Capgemini and joined Accenture */}
+                                                                        <li className="event" data-date="AUG 2024*">
+                                                                            <h1>Senior Analyst</h1>
+                                                                            <span className="bo">
+                                                                                <p>ACCENTURE, INDIA</p>
+                                                                            </span>
+                                                                            <p>Working as Senior Analyst.
+                                                                                Deep dived into Core Python, Cloud Exposure and Project Management. 
+                                                                            </p>
+                                                                        </li>
+                                                                        {/* <li className="event" data-date="DEC 2021 *">  -- Edit made after leaving Capgemini*/}
+                                                                        <li className="event" data-date="DEC 2021-AUG 2024">
                                                                             <h1>Senior Software Engineer</h1>
                                                                             <span className="bo">
                                                                                 <p>CAPGEMINI, INDIA</p>
                                                                             </span>
-                                                                            <p>Working as Software Developer.
-                                                                                Practical exposure to ETL Tools such as Informatica, Tableau
-                                                                                and Teradata with Oracal SQL
+                                                                            <p>Worked as Senior Software Developer.
+                                                                                Gained practical knowledge on Python, SQL, ETL Tools such as Informatica, Tableau
+                                                                                and Teradata.
                                                                             </p>
                                                                         </li>
                                                                         <li className="event" data-date="JUL 2021-DEC 2021">

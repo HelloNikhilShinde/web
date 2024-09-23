@@ -100,6 +100,11 @@
       position: relative;
   }
 
+  @media(max-width:1280px) {
+    .leftpart-resume h2 span h1, .rightpart-resume h2 span h1{
+        left:12.5%;
+    }
+  }
 
   @media(max-width:991px) {
       .resume-body {
